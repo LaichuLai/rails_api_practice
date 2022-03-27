@@ -50,6 +50,10 @@ GEM
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     debug_inspector (1.1.0)
+    dotenv (2.7.6)
+    dotenv-rails (2.7.6)
+      dotenv (= 2.7.6)
+      railties (>= 3.2)
     erubis (2.7.0)
     execjs (2.8.1)
     faker (2.2.1)
@@ -153,6 +157,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  dotenv-rails
   faker
   jbuilder (~> 2.0)
   jquery-rails

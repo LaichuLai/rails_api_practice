@@ -11,7 +11,7 @@ default: &default
   pool: 5
   port: 3306
   timeout: 5000
-  host: <%= ENV['DB_NAME'] %>
+  host: <%= ENV['DB_HOSTNAME'] %>
   encoding: utf8mb4
   collation: utf8mb4_bin
   socket: /tmp/mysql.sock
